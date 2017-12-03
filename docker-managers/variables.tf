@@ -37,10 +37,6 @@ variable "manager_size" {
   description = "The number of Manager nodes to have in the swarm. We strongly recommend setting this to 3 or 5."
 }
 
-variable "worker_size" {
-  description = "The number of Worker nodes to have in the swarm."
-}
-
 # ---------------------------------------------------------------------------------------------------------------------
 # OPTIONAL PARAMETERS
 # These parameters have reasonable defaults.
